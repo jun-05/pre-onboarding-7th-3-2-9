@@ -15,6 +15,7 @@ import { useAccountList } from './../../hooks/useAccount';
 import { pagination } from './../../utils/pagination';
 import { ACOOUNT_TABLE } from '../../utils/accountList/accountObj';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const AccountHome = () => {
   const { user } = useAuth();
@@ -51,6 +52,9 @@ const AccountHome = () => {
 
   return (
     <>
+      <Head>
+        <title>계좌 리스트</title>
+      </Head>
       <div className="p-4 w-[720px] xl:w-[1440px] overflow-x-auto overflow-y-hidden  shadow-md sm:rounded-lg ">
         <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
