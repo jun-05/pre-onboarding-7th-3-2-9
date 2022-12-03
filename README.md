@@ -4,6 +4,10 @@
 
 https://pre-onboarding-7th-3-2-9-three.vercel.app/
 
+로그인 ID / PWD 
+
+`1234@1234.com` / `1234`
+
 ## 요구기능 
 
 공통사항 : 레이아웃과 기능만 주어지고, 디자인은 각자 구현
