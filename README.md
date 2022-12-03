@@ -18,15 +18,15 @@ https://pre-onboarding-7th-3-2-9-three.vercel.app/
     - 리스트의 목록중 하나를 클릭 시 상세페이지로 이동
     - 페이지 네이션 기능
     
-2.구현하지 못한 부분
+- 구현하지 못한 부분
    - 브로커명,계좌 활성화 여부, 계좌 상태에 따른 필터링이 가능할것
    - 검색 기능
   
 3. 계좌 상세 Page
     - 계좌의 상세 정보 표시
 
-3.구현하지 못한 부분
-  - 상세페이지 일부분 수정 기능
+- 구현하지 못한 부분
+  - 상세페이지 수정 기능
 
 ## 사용 스택
 
@@ -37,7 +37,7 @@ https://pre-onboarding-7th-3-2-9-three.vercel.app/
 - TailwindCSS
 - Twin.macro
 
-## 1. commit msg 규칙
+## commit msg 규칙
 
 ⭐ feat : 새로운 기능에 대한 커밋
 
